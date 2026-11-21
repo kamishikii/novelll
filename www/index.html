@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#f7c3d6">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Лепесток</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/reader.css">
+</head>
+<body>
+  <div id="splash" aria-hidden="true">
+    <div class="splash-flower"><span></span><span></span><span></span><span></span><span></span><i></i></div>
+    <div class="splash-name">Лепесток</div>
+    <div class="splash-sub">уютная читалка</div>
+  </div>
+
+  <canvas id="petals" aria-hidden="true"></canvas>
+
+  <header id="header"></header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <div id="drawer-scrim" class="scrim" hidden></div>
+  <aside id="drawer" aria-label="Меню"></aside>
+
+  <div id="sheet-scrim" class="scrim" hidden></div>
+  <section id="sheet" class="sheet" hidden></section>
+
+  <div id="modal-scrim" class="scrim" hidden></div>
+  <section id="modal" class="modal" hidden></section>
+
+  <div id="popover" hidden></div>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="sel-bubble" hidden></div>
+
+  <noscript><div style="padding:100px 20px;text-align:center;font-family:sans-serif">Включи JavaScript, чтобы читать 🌸</div></noscript>
+
+  <script defer src="data/catalog.js"></script>
+  <script defer src="js/icons.js"></script>
+  <script defer src="js/db.js"></script>
+  <script defer src="js/store.js"></script>
+  <script defer src="js/audio.js"></script>
+  <script defer src="js/ui.js"></script>
+  <script defer src="js/router.js"></script>
+  <script defer src="js/views/home.js"></script>
+  <script defer src="js/views/novel.js"></script>
+  <script defer src="js/views/reader.js"></script>
+  <script defer src="js/views/library.js"></script>
+  <script defer src="js/views/upload.js"></script>
+  <script defer src="js/views/settings.js"></script>
+  <script defer src="js/native.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>
