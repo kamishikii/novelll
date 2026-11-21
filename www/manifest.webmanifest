@@ -1,0 +1,11 @@
+{
+  "name": "Лепесток — читалка новелл",
+  "short_name": "Лепесток",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7c3d6",
+  "theme_color": "#f7c3d6",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
